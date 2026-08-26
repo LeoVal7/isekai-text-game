@@ -8,7 +8,7 @@ class Game:
         self.stato = {}
 
     def start(self):
-        scena_corrente = "prato"
+        scena_corrente = "risveglio"
 
         while scena_corrente is not None:
             scena = SCENE.get(scena_corrente)
